@@ -19,7 +19,7 @@ def remove_strawberry(contacts)
      if key == "Freddy Mercury"
        key.each do |a, b|
          if a == :favorite_ice_cream_flavors
-           b.delete_if {|ice_cream| ice cream == "strawberry"}
+           b.delete_if {|ice_cream| ice_cream == "strawberry"}
          end
        end
      end
