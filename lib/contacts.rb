@@ -15,7 +15,7 @@ contacts = {
    }
   
 def remove_strawberry(contacts)
-   contacts.each do |key, value|
+  contacts.each do |key, value|
      if key == "Freddy Mercury"
        key.each do |a, b|
          if a == :favorite_ice_cream_flavors
@@ -26,4 +26,3 @@ def remove_strawberry(contacts)
    end
  end
      
-end
